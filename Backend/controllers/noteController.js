@@ -1,4 +1,4 @@
-const Note = require("../models/Note");
+const Note = require("../models/notetemp");
 
 const createNote = async (req, res) => {
   try {
