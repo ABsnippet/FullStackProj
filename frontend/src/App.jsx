@@ -5,9 +5,9 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import Register from "./pages/tempregister";
-import Login from "./pages/templogin";
-import Dashboard from "./pages/tempdashboard";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
