@@ -24,8 +24,8 @@ app.use(cors({
 
 
 // ROUTES
-app.use("/api/auth", require("./routes/tempauth.js"));
-app.use("/api/notes", require("./routes/tempnote.js"));
+app.use("/api/auth", require("./routes/authRoutes.js"));
+app.use("/api/notes", require("./routes/noteRoutes.js"));
 
 // TEST ROUTE
 app.get("/", (req, res) => {
